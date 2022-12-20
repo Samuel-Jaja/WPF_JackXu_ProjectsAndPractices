@@ -1,8 +1,8 @@
-﻿<Application x:Class="Chapter4_ColorsAndBrushes.App"
+﻿<Application x:Class="Chapter5_2DLineCharts.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Chapter4_ColorsAndBrushes"
-             StartupUri="ColorPicker.xaml">
+             xmlns:local="clr-namespace:Chapter5_2DLineCharts"
+             StartupUri="SimpleLineChart.xaml">
     <Application.Resources>
          
     </Application.Resources>

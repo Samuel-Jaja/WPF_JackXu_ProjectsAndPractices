@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter3_WPFGraphics_Basics
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter4_ColorsAndBrushes", "Chapter4_ColorsAndBrushes\Chapter4_ColorsAndBrushes.csproj", "{DDA25517-DA0A-4569-9B5C-AAD21EF37276}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsBasics", "GraphicsBasics\GraphicsBasics.csproj", "{AB02565B-C5F4-425D-98AC-8DD648037473}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphicsBasics", "GraphicsBasics\GraphicsBasics.csproj", "{AB02565B-C5F4-425D-98AC-8DD648037473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter5_2DLineCharts", "Chapter5_2DLineCharts\Chapter5_2DLineCharts.csproj", "{BFBE0C04-ECDF-42AE-8419-07C7F878952C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AB02565B-C5F4-425D-98AC-8DD648037473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB02565B-C5F4-425D-98AC-8DD648037473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB02565B-C5F4-425D-98AC-8DD648037473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBE0C04-ECDF-42AE-8419-07C7F878952C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBE0C04-ECDF-42AE-8419-07C7F878952C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBE0C04-ECDF-42AE-8419-07C7F878952C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBE0C04-ECDF-42AE-8419-07C7F878952C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
