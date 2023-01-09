@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphicsBasics", "GraphicsB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter5_2DLineCharts", "Chapter5_2DLineCharts\Chapter5_2DLineCharts.csproj", "{BFBE0C04-ECDF-42AE-8419-07C7F878952C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter6_Specialized2DCharts", "Chapter6_Specialized2DCharts\Chapter6_Specialized2DCharts.csproj", "{A20B723D-6758-4556-A50E-10252ADCD6CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter6_Specialized2DCharts", "Chapter6_Specialized2DCharts\Chapter6_Specialized2DCharts.csproj", "{A20B723D-6758-4556-A50E-10252ADCD6CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter1_WPFProgramming", "Chapter1_WPFProgramming\Chapter1_WPFProgramming.csproj", "{296D3B2A-557C-473D-86C0-4BF7AFFF4D29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter1_WPFProgramming", "Chapter1_WPFProgramming\Chapter1_WPFProgramming.csproj", "{296D3B2A-557C-473D-86C0-4BF7AFFF4D29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter7_StockCharts", "Chapter7_StockCharts\Chapter7_StockCharts.csproj", "{904D8E6C-9BD6-48DE-9AC1-03C8954F4FC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter8_Interactive2DCharts", "Chapter8_Interactive2DCharts\Chapter8_Interactive2DCharts.csproj", "{30D55030-83E9-48E9-9108-CACFA81F883E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{296D3B2A-557C-473D-86C0-4BF7AFFF4D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{296D3B2A-557C-473D-86C0-4BF7AFFF4D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{296D3B2A-557C-473D-86C0-4BF7AFFF4D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904D8E6C-9BD6-48DE-9AC1-03C8954F4FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904D8E6C-9BD6-48DE-9AC1-03C8954F4FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904D8E6C-9BD6-48DE-9AC1-03C8954F4FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904D8E6C-9BD6-48DE-9AC1-03C8954F4FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D55030-83E9-48E9-9108-CACFA81F883E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D55030-83E9-48E9-9108-CACFA81F883E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D55030-83E9-48E9-9108-CACFA81F883E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D55030-83E9-48E9-9108-CACFA81F883E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

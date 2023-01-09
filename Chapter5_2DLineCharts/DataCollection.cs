@@ -34,11 +34,12 @@ namespace Chapter5_2DLineCharts
                 for (int i = 0; i < ds.LineSeries.Points.Count; i++)
                 {
                     ds.LineSeries.Points[i] = cs.NormalizePoint(ds.LineSeries.Points[i]);
+                    ds.Symbols.AddSymbol(cs.ChartCanvas, ds.LineSeries.Points[i]);
+                    cs.ChartCanvas.Children.Add(ds.LineSeries);
+                    j++;
                 }
-                cs.ChartCanvas.Children.Add(ds.LineSeries);
-                j++;
             }
-        }
 
+        }
     }
 }

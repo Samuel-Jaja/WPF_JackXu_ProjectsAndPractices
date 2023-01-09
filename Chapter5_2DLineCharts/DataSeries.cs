@@ -22,11 +22,11 @@ namespace Chapter5_2DLineCharts
             LineColor = Brushes.Black;
             symbols = new Symbols();
         }
-        /*public Symbols Symbols 
+        public Symbols Symbols 
         { 
         get { return symbols; } 
         set { symbols = value; } 
-        }*/
+        }
         public Brush LineColor
         {
             get { return lineColor; }

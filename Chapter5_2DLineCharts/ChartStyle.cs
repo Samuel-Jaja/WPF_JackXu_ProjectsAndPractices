@@ -1,10 +1,14 @@
 ﻿using System;
+using System.Windows;
 using System.Collections.Generic;
-using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
+using static Chapter5_2DLineCharts.Symbols;
+using System.Windows.Media;
+using System.Windows.Shapes;
 
 namespace Chapter5_2DLineCharts
 {
@@ -47,10 +51,10 @@ namespace Chapter5_2DLineCharts
                 ChartCanvas.Width = 270;
             if (ChartCanvas.Height.ToString() == "NaN")
                 ChartCanvas.Height = 250;
-            Point result = new Point();
+            Point result = new System.Windows.Point();
             result.X = (int)((pt.X - Xmin) * ChartCanvas.Width / (Xmax - Xmin));
             result.Y = (int)((int)ChartCanvas.Height - (pt.Y - Ymin) * ChartCanvas.Height / (Ymax - Ymin));
             return result;
         }
     }
-}
+ }
